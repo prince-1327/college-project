@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Development Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .question{
+            background: rgb(100, 19, 192);
+        }
+        ::-webkit-scrollbar{
+            width:5px
+        }
+        ::-webkit-scrollbar-track{
+            background: rgb(157, 157, 161);
+        }
+        ::-webkit-scrollbar-thumb{
+            background: rgb(41, 38, 38);
+        }
+        ::-webkit-scrollbar-thumb:hover{
+            background: rgb(32, 30, 30);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid d-flex flex-column vh-100">
+        <div class="row my-2">
+            <div class="col-4">Lorem, ipsum</div>
+            <div class="col-4"></div>
+            <div class="col-4 px-3">
+                <div class="d-flex flex-row justify-content-end">
+                    <div class="timer px-3 align-self-center">00:00:00</div>
+                    <!-- <Button class="btn btn-primary">User</Button> -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">User</button>
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                        aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h5 id="attemptedQuestionsLabel">Attempted Questions</h5>
+                                        <button class="btn btn-primary">1</button>
+                                        <button class="btn btn-primary">2</button>
+                                        <button class="btn btn-primary">3</button>
+                                        <button class="btn btn-primary">4</button>
+                                        <button class="btn btn-primary">5</button>
+                                        <button class="btn btn-primary">6</button>
+                                        <button class="btn btn-primary">7</button>
+                                        <button class="btn btn-primary">8</button>
+                                        <button class="btn btn-primary">9</button>
+                                        <button class="btn btn-primary">10</button>
+                                        <button class="btn btn-primary">11</button>
+                                        <button class="btn btn-primary">12</button>
+                                        <button class="btn btn-primary">13</button>
+                                        <button class="btn btn-primary">14</button>
+                                        <button class="btn btn-primary">15</button>
+                                        <button class="btn btn-primary">16</button>
+                                        <button class="btn btn-primary">17</button>
+                                        <button class="btn btn-primary">18</button>
+                                        <button class="btn btn-primary">19</button>
+                                        <button class="btn btn-primary">20</button>
+                                        <button class="btn btn-primary">21</button>
+                                        <button class="btn btn-primary">22</button>
+                                        <button class="btn btn-primary">23</button>
+                                        <button class="btn btn-primary">24</button>
+                                        <button class="btn btn-primary">25</button>
+                                        <button class="btn btn-primary">26</button>
+                                        <button class="btn btn-primary">27</button>
+                                        <button class="btn btn-primary">28</button>
+                                        <button class="btn btn-primary">29</button>
+                                        <button class="btn btn-primary">30</button>
+                                        <button class="btn btn-primary">31</button>
+                                        <button class="btn btn-primary">32</button>
+                                        <button class="btn btn-primary">33</button>
+                                        <button class="btn btn-primary">34</button>
+                                        <button class="btn btn-primary">35</button>
+                                        <button class="btn btn-primary">36</button>
+                                        <button class="btn btn-primary">37</button>
+                                        <button class="btn btn-primary">38</button>
+                                        <button class="btn btn-primary">39</button>
+                                        <button class="btn btn-primary">40</button>
+                                        <button class="btn btn-primary">41</button>
+                                        <button class="btn btn-primary">42</button>
+                                        <button class="btn btn-primary">43</button>
+                                        <button class="btn btn-primary">44</button>
+                                        <button class="btn btn-primary">45</button>
+                                        <button class="btn btn-primary">46</button>
+                                        <button class="btn btn-primary">47</button>
+
+
+
+                                    </div>
+                                    <div class="col-6">
+                                        <h5 id="userProfileLabel">User Profile</h5>
+                                        <img src="#" alt="Profile Picture" class="profile-picture">
+                                        <div class="user-details">
+                                            <p class="user-name">Prince Kumar</p>
+                                            <p class="enrollment-number">Enrollment: 19105125058</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex-grow-1" style="height: 0px;">
+            <div class="col-1 h-100 overflow-auto question">
+                <button class="btn btn-primary w-100 my-1">1</button><button
+                    class="btn btn-primary w-100 my-1">2</button><button
+                    class="btn btn-primary w-100 my-1">3</button><button
+                    class="btn btn-primary w-100 my-1">4</button><button
+                    class="btn btn-primary w-100 my-1">5</button><button
+                    class="btn btn-primary w-100 my-1">6</button><button
+                    class="btn btn-primary w-100 my-1">7</button><button
+                    class="btn btn-primary w-100 my-1">8</button><button
+                    class="btn btn-primary w-100 my-1">9</button><button
+                    class="btn btn-primary w-100 my-1">10</button><button
+                    class="btn btn-primary w-100 my-1">11</button><button
+                    class="btn btn-primary w-100 my-1">12</button><button
+                    class="btn btn-primary w-100 my-1">13</button><button
+                    class="btn btn-primary w-100 my-1">14</button><button
+                    class="btn btn-primary w-100 my-1">15</button><button
+                    class="btn btn-primary w-100 my-1">16</button><button
+                    class="btn btn-primary w-100 my-1">17</button><button
+                    class="btn btn-primary w-100 my-1">18</button><button
+                    class="btn btn-primary w-100 my-1">19</button><button
+                    class="btn btn-primary w-100 my-1">20</button><button
+                    class="btn btn-primary w-100 my-1">21</button><button
+                    class="btn btn-primary w-100 my-1">22</button><button
+                    class="btn btn-primary w-100 my-1">23</button><button
+                    class="btn btn-primary w-100 my-1">24</button><button
+                    class="btn btn-primary w-100 my-1">25</button><button
+                    class="btn btn-primary w-100 my-1">26</button><button
+                    class="btn btn-primary w-100 my-1">27</button><button
+                    class="btn btn-primary w-100 my-1">28</button><button
+                    class="btn btn-primary w-100 my-1">29</button><button
+                    class="btn btn-primary w-100 my-1">30</button><button
+                    class="btn btn-primary w-100 my-1">31</button><button
+                    class="btn btn-primary w-100 my-1">32</button><button
+                    class="btn btn-primary w-100 my-1">33</button><button
+                    class="btn btn-primary w-100 my-1">34</button><button
+                    class="btn btn-primary w-100 my-1">35</button><button
+                    class="btn btn-primary w-100 my-1">36</button><button
+                    class="btn btn-primary w-100 my-1">37</button><button
+                    class="btn btn-primary w-100 my-1">38</button><button
+                    class="btn btn-primary w-100 my-1">39</button><button
+                    class="btn btn-primary w-100 my-1">40</button><button
+                    class="btn btn-primary w-100 my-1">41</button><button
+                    class="btn btn-primary w-100 my-1">42</button><button
+                    class="btn btn-primary w-100 my-1">43</button><button
+                    class="btn btn-primary w-100 my-1">44</button><button
+                    class="btn btn-primary w-100 my-1">45</button><button
+                    class="btn btn-primary w-100 my-1">46</button><button
+                    class="btn btn-primary w-100 my-1">47</button><button
+                    class="btn btn-primary w-100 my-1">48</button><button
+                    class="btn btn-primary w-100 my-1">49</button><button class="btn btn-primary w-100 my-1">50</button>
+            </div>
+            <div class="col-11 h-100 overflow-auto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ut. Beatae laboriosam totam quae
+                    recusandae, architecto voluptate sint porro rerum nostrum odio minus aliquam, corrupti saepe, ea
+                    quidem delectus obcaecati modi incidunt asperiores repellendus labore est magnam possimus
+                    consectetur? Nobis numquam repellendus sit quidem non, minus delectus! Ex ut libero ducimus cum
+                    inventore. Facilis dicta molestias voluptate quidem voluptatem corrupti architecto deserunt.
+                    Possimus, perspiciatis, esse pariatur placeat labore deserunt sunt reprehenderit beatae unde
+                    molestiae necessitatibus non asperiores, corporis doloribus perferendis odio aspernatur natus optio
+                    impedit error adipisci debitis sequi molestias iste. Ipsam at consequatur assumenda dolor veniam
+                    cumque, soluta quo eum ratione cum maxime quod iusto molestiae, dignissimos placeat itaque
+                    doloremque exercitationem iste dolore unde dolores laboriosam qui facere necessitatibus? Dolore
+                    eligendi consequatur cum nisi nulla, at sequi ipsa. Pariatur iste ipsam autem exercitationem
+                    laboriosam eos facilis ex aliquid ullam est corrupti, dolore inventore magnam beatae incidunt
+                    repellat culpa consectetur cumque dicta nisi? Ex modi earum voluptatibus doloribus corrupti, nobis
+                    officiis dicta ea velit sunt asperiores dolor in eius aliquam inventore dolorum excepturi mollitia,
+                    unde harum. Eaque nam dolores vitae amet sequi explicabo maxime temporibus aperiam at ducimus
+                    repudiandae corporis accusantium voluptas, ipsam ad quos, necessitatibus aliquid ea atque! Ex
+                    voluptate provident ipsa eum laudantium repudiandae. Alias incidunt vel cupiditate repudiandae ut
+                    iste quod esse ea explicabo minus laboriosam, impedit at suscipit ab neque architecto inventore. In
+                    ullam culpa beatae omnis tempora nihil facilis veniam magni excepturi illum eveniet qui illo vero,
+                    adipisci ea maxime id? Dolor deleniti deserunt ullam sunt vero, fugit, ex repudiandae pariatur
+                    blanditiis quis consequuntur odit! Aut asperiores delectus adipisci commodi eveniet quae. Ut
+                    deserunt doloribus animi iusto vitae earum magnam. Amet, quaerat laboriosam voluptates veniam, nemo
+                    similique, corporis voluptate distinctio nesciunt natus incidunt ex fugit eligendi excepturi nobis
+                    corrupti! Iusto, a tempore similique cum sunt nobis doloremque dolore distinctio mollitia dicta
+                    ullam natus incidunt dignissimos consequatur sed dolores saepe quo fugiat tenetur ad. Vitae odio,
+                    dolorum vero eveniet quod ut eos cum provident tempora placeat deserunt, dolores, aperiam ab
+                    similique porro! Ullam temporibus ex quidem aliquid rerum consectetur amet asperiores dolorem
+                    recusandae? Vel nulla voluptatibus porro adipisci error cupiditate similique qui blanditiis
+                    voluptates nisi! Amet sapiente ullam laudantium dolorum maxime soluta veniam, nihil dolorem ut
+                    minus, distinctio impedit quidem natus eveniet tenetur quam, tempora labore consequatur ad nam dolor
+                    aliquid suscipit id numquam. Repellendus, accusantium possimus a molestias, obcaecati sed aperiam
+                    natus facere quidem repellat, cum excepturi cupiditate enim inventore accusamus quaerat quisquam
+                    nobis consequatur in recusandae consequuntur? Recusandae ex quibusdam quidem? Tempora dignissimos
+                    aperiam repellendus aut inventore odit rem iure sapiente, commodi possimus vitae quis! Consequuntur
+                    sint amet omnis rem maiores natus eligendi vitae laboriosam nostrum illo veniam, quas doloribus ex
+                    quo optio itaque eius ad dolorem possimus incidunt asperiores aliquid cumque. Modi cum doloremque
+                    voluptatum labore doloribus architecto, sunt praesentium asperiores non repellat est minima magnam
+                    maiores debitis? Cupiditate deleniti omnis ducimus dolorem? Repellat, natus rem accusamus delectus
+                    tempore repudiandae nostrum debitis reiciendis numquam animi laborum, voluptatem officia! Nesciunt
+                    possimus ipsum temporibus cupiditate?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellendus accusamus dolorem itaque
+                    nihil voluptates! Consequuntur repellat tempora, obcaecati quaerat at deleniti fuga unde id
+                    necessitatibus dolores impedit labore blanditiis in. Repellendus impedit ullam nisi et quae, placeat
+                    provident reprehenderit corporis deserunt debitis labore, saepe quaerat sed veniam beatae ducimus
+                    vel obcaecati recusandae dolor quis. Hic commodi impedit necessitatibus inventore nesciunt, maiores
+                    veniam magni dolor, tempore magnam eos repellendus sunt rerum ducimus asperiores illum ipsum
+                    recusandae delectus vero doloribus laboriosam laborum. Explicabo accusantium id quidem corporis
+                    tempora autem vel veniam non voluptates labore fugiat magni libero unde modi voluptatibus, sequi
+                    voluptatum nisi adipisci temporibus praesentium. Deserunt saepe dignissimos earum minima voluptatum
+                    reprehenderit quibusdam minus libero ducimus? Excepturi impedit voluptatum temporibus hic. Nemo
+                    nesciunt vitae iure labore est, voluptatum quisquam maxime veritatis ipsum et tempora quam corrupti
+                    aperiam cupiditate natus voluptatem distinctio delectus recusandae, quas doloremque deserunt ea
+                    ratione? Totam hic magni expedita sunt perferendis, nisi provident, accusamus, saepe quis qui
+                    recusandae aspernatur. Nihil debitis corrupti veniam magnam illum blanditiis at, soluta assumenda
+                    quasi voluptatem quo harum, aspernatur vero autem impedit. Error ex, quam maxime, optio dolore quia
+                    accusamus cum ullam inventore quod officiis, facere enim! Laudantium labore suscipit consectetur
+                    possimus!</p>
+            </div>
+        </div>
+
+        <div class="row my-2">
+            <div class="col-6"></div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-4">
+                        <button class="btn btn-primary">Previous</button>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary">Save and Next</button>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary">Mark for review</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional: Add JavaScript code to update the timer -->
+    <script>
+
+        var timerElement = document.getElementById("timer");
+        var startTime = Date.now();
+
+        function updateTimer() {
+            var currentTime = Date.now();
+            var timeDiff = currentTime - startTime;
+            var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+            var formattedTime = padZero(minutes) + ":" + padZero(seconds);
+            timerElement.textContent = formattedTime;
+        }
+
+        function padZero(value) {
+            return value < 10 ? "0" + value : value;
+        }
+
+        setInterval(updateTimer, 1000); // Update timer every second
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
